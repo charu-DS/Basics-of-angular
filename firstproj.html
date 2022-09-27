@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <body>
+        <div ng-app="" data-ng-init="quantity=1;price=5; nf=5;nft='charu';A=[1,2,3,4] ">
+            <p>Input something </p>
+            <p>Name: <input type=text ng-model="name" placeholder="enter name here"></p>
+            <h4>Hello {{ name }}</h4>
+            <h5>Checking for just a number: </b> {{nf}}</h5>
+            <h5>Checking for string: {{nft}}</h5>
+            <h5>Checking for array: {{A}}</h5>
+            
+            <h3>Cost Calculator</h3>
+            Quantity <input type="number" ng-model="quantity">
+            Price <input type="number" ng-model="price">
+            <p>Total Price: </b>{{ quantity* price }}</p>
+            <p>We will check number*number: </b>{{ 5*5 }}</p>
+            <p>We will check array: </b>{{ 5*5 }}</p>
+            <p style="color:cadetblue;">Created by Charu 8416</p>
+        </div>
+    </body>
+</html>
